@@ -1,0 +1,64 @@
+/* Stil für den gesamten Körper des Dokuments */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Stil für den Titel */
+h1 {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    margin: 0;
+}
+
+/* Stil für das Eingabefeld */
+#searchInput {
+    width: 45%;
+    padding: 10px;
+    margin: 10px 0;
+    margin-left: 15px;
+}
+
+/* Stil für den Sortier-Button */
+#sortButton {
+    display: block;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Stil für die Tabelle */
+div table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+
+/* Stil für die Tabellenüberschrift */
+div table th {
+    background-color: #333;
+    color: #fff;
+    text-align: left;
+    padding: 10px;
+}
+
+/* Stil für die Tabellenzellen */
+div table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+/* Stil für die Nachricht bei fehlenden Daten */
+p {
+    text-align: center;
+    font-style: italic;
+    color: #888;
+}
